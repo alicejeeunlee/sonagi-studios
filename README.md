@@ -1,3 +1,3 @@
-# final-project
+# sonagi studios
 
-A full stack JavaScript solo project.
+A website for a woodworking studio located in Irvine, CA.
