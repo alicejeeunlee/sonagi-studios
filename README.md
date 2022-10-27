@@ -1,3 +1,3 @@
 # sonagi studios
 
-A website for a woodworking studio located in Irvine, CA.
+A work-in-progress website for a woodworking studio located in Irvine, CA.
