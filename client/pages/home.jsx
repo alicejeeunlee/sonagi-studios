@@ -3,8 +3,10 @@ import HelloWorld from '../components/hello-world';
 
 export default function Home(props) {
   return (
-    <div>
-      <HelloWorld />
+    <div className='container'>
+      <div className='row'>
+        <HelloWorld />
+      </div>
     </div>
   );
 }

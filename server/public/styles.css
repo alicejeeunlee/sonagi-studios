@@ -1,0 +1,16 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.bg {
+  background-image: url("images/giwajip.jpg");
+  height: calc(100vw/(1280/3000));
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}

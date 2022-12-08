@@ -10,14 +10,18 @@ export default class App extends React.Component {
     };
   }
 
-  // renderPage() {
-  //   const { path } = this.state.route;
-  //   if (path === 'home' || path === '') {
-  //     return <Home state={this.state} />;
-  //   }
-  // }
+  renderPage() {
+    const { path } = this.state.route;
+    if (path === 'home' || path === '') {
+      return <Home state={this.state} />;
+    }
+  }
 
   render() {
-    return <Home/>;
+    return (
+      <div className='bg'>
+        <Home />
+      </div>
+    );
   }
 }
