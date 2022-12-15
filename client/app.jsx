@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
+import Footer from './components/footer';
 import parseRoute from './lib/parse-route';
 
 export default class App extends React.Component {
@@ -19,9 +20,12 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className='bg'>
-        <Home />
-      </div>
+      <>
+        <div className='bg'>
+          <Home />
+        </div>
+        <Footer />
+      </>
     );
   }
 }
