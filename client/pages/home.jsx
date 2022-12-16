@@ -1,12 +1,19 @@
 import React from 'react';
-import HelloWorld from '../components/hello-world';
+import Footer from '../components/footer';
 
 export default function Home(props) {
   return (
-    <div className='container'>
-      <div className='row'>
-        <HelloWorld />
+    <>
+      <div className='bg'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-full'>
+              <h1>Hello World</h1>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <Footer />
+    </>
   );
 }

@@ -1,0 +1,24 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-three-fifth {
+  flex-basis: calc(300%/5);
+}
+
+.col-two-fifth {
+  flex-basis: calc(200%/5);
+}
+
+.col-half {
+  flex-basis: 50%;
+}

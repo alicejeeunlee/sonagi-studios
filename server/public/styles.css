@@ -1,16 +1,91 @@
-.container {
-  max-width: 100%;
-  margin: auto;
-}
-
-.row {
-  display: flex;
-}
-
+/* Homepage */
 .bg {
-  background-image: url("images/giwajip.jpg");
+  background-image: url("/images/giwajip.jpg");
   height: calc(100vw/(1280/3000));
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+/* Footer */
+.bg-footer {
+  background-color: rgb(4, 4, 112);
+}
+
+.footer-padding {
+  padding: 2.5rem;
+}
+
+.footer-col-padding {
+  padding-right: 4rem;
+}
+
+.footer-links {
+  padding-right: 1rem;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.bg-footer label {
+  font-family: "GFS Didot", serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.bg-footer input {
+  margin-left: 1rem;
+  padding: 0 1.5rem 0 0.5rem;
+  width: 15rem;
+  height: 2rem;
+}
+
+.input-submit-button {
+  background: none;
+  border: none;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  top: calc(50% - 0.4rem);
+  right: 1.3rem;
+}
+
+.bg-footer p {
+  margin-bottom: 0.5rem;
+  font-family: "GFS Didot", serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.bg-footer a {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "GFS Didot", serif;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.social-links {
+  padding-left: 1rem;
+}
+
+.social-links a {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.social-links a:last-child {
+  padding-right: 0;
+}
+
+.social-links img {
+  width: 4rem;
+  height: 4rem;
 }
