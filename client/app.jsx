@@ -1,6 +1,5 @@
 import React from 'react';
 import Home from './pages/home';
-import Footer from './components/footer';
 import parseRoute from './lib/parse-route';
 
 export default class App extends React.Component {
@@ -11,21 +10,16 @@ export default class App extends React.Component {
     };
   }
 
-  renderPage() {
-    const { path } = this.state.route;
-    if (path === 'home' || path === '') {
-      return <Home state={this.state} />;
-    }
-  }
+  // renderPage() {
+  //   const { path } = this.state.route;
+  //   if (path === 'home' || path === '') {
+  //     return <Home state={this.state} />;
+  //   }
+  // }
 
   render() {
     return (
-      <>
-        <div className='bg'>
-          <Home />
-        </div>
-        <Footer />
-      </>
+      <Home />
     );
   }
 }
