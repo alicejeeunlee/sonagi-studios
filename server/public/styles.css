@@ -1,10 +1,59 @@
 /* Homepage */
 .bg {
   background-image: url("/images/giwajip.jpg");
-  height: calc(100vw/(1280/3000));
+  height: calc(100vw/(1370/3000));
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.brand h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "GFS Didot", serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  background: linear-gradient(rgb(12, 28, 31), rgb(46, 87, 141));
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.brand h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "GFS Didot", serif;
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  background: linear-gradient(rgb(87, 120, 185), rgb(30, 48, 104));
+  /* stylelint-disable-next-line property-no-vendor-prefix */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.season {
+  margin-top: 8rem;
+  align-content: center;
+}
+
+.season p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "GFS Didot", serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  color: rgb(38, 48, 101);
+}
+
+p.theme {
+  margin-top: 0.5rem;
+  padding: 0 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
 }
 
 /* Footer */

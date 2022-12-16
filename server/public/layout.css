@@ -7,6 +7,14 @@
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .col-full {
   flex-basis: 100%;
 }
@@ -21,4 +29,8 @@
 
 .col-half {
   flex-basis: 50%;
+}
+
+.col-third {
+  flex-basis: calc(100%/3);
 }

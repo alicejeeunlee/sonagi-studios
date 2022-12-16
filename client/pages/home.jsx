@@ -6,9 +6,14 @@ export default function Home(props) {
     <>
       <div className='bg'>
         <div className='container'>
-          <div className='row'>
-            <div className='col-full'>
-              <h1>Hello World</h1>
+          <div className='row wrap justify-center'>
+            <div className='col-full brand'>
+              <h1 className='sonagi-gradient'>Sonagi</h1>
+              <h2 className='studios-gradient'>Studios</h2>
+            </div>
+            <div className='col-third season'>
+              <p>Season I</p>
+              <p className='theme'>Life, death, and everything in between.</p>
             </div>
           </div>
         </div>
